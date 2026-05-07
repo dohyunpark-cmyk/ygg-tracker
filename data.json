@@ -1,6 +1,341 @@
 {
-  "fetched_at": "2026-05-07T00:00:00+00:00",
-  "stocks": [],
-  "errors": [],
-  "_note": "초기 placeholder. GitHub Actions 워크플로우(Update YGG dashboard data)를 수동으로 한 번 실행하면 실제 데이터로 채워집니다."
+  "fetched_at": "2026-05-07T07:36:58.434026+00:00",
+  "stocks": [
+    {
+      "id": "WEB",
+      "ticker": "ASX:WEB",
+      "yahoo": "WEB.AX",
+      "name": "Web Travel Group",
+      "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
+      "currency": "AUD",
+      "symbol": "A$",
+      "price": 2.86,
+      "high_52w": 5.49,
+      "low_52w": 2.48,
+      "change_3m_pct": -18.5,
+      "market_cap": "A$1.04B",
+      "last_close_date": "2026-05-07",
+      "sparkline": [
+        {
+          "date": "2026-02-09",
+          "price": 3.51
+        },
+        {
+          "date": "2026-02-13",
+          "price": 3.48
+        },
+        {
+          "date": "2026-02-19",
+          "price": 3.63
+        },
+        {
+          "date": "2026-02-26",
+          "price": 3.24
+        },
+        {
+          "date": "2026-03-04",
+          "price": 2.86
+        },
+        {
+          "date": "2026-03-11",
+          "price": 2.8
+        },
+        {
+          "date": "2026-03-17",
+          "price": 2.65
+        },
+        {
+          "date": "2026-03-24",
+          "price": 2.73
+        },
+        {
+          "date": "2026-03-30",
+          "price": 2.6
+        },
+        {
+          "date": "2026-04-07",
+          "price": 2.67
+        },
+        {
+          "date": "2026-04-14",
+          "price": 2.66
+        },
+        {
+          "date": "2026-04-20",
+          "price": 2.88
+        },
+        {
+          "date": "2026-04-27",
+          "price": 2.71
+        },
+        {
+          "date": "2026-05-01",
+          "price": 2.68
+        },
+        {
+          "date": "2026-05-07",
+          "price": 2.86
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-06",
+          "headline": "ASX Penny Stocks To Watch With Market Caps Under A$1B",
+          "sentiment": "negative",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-penny-stocks-watch-market-200236855.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2026-05-06",
+          "headline": "ASX Stocks That May Be Trading Below Their Estimated Value",
+          "sentiment": "neutral",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-stocks-may-trading-below-193452929.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2026-05-05",
+          "headline": "ASX Stocks That Could Be Trading Below Intrinsic Value By Up To 47.4%",
+          "sentiment": "neutral",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-stocks-could-trading-below-193503295.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2026-05-04",
+          "headline": "ASX Value Picks Predictive Discovery And 2 More Stocks Estimated Below Intrinsic Value",
+          "sentiment": "neutral",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-value-picks-predictive-discovery-193449488.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2026-05-03",
+          "headline": "3 ASX Stocks Estimated To Be Undervalued In May 2026",
+          "sentiment": "negative",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-asx-stocks-estimated-undervalued-193429657.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2026-04-30",
+          "headline": "ASX Stocks That Could Be Trading Below Their Estimated Value",
+          "sentiment": "negative",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-stocks-could-trading-below-193451388.html",
+          "source": "Simply Wall St."
+        }
+      ]
+    },
+    {
+      "id": "TBO",
+      "ticker": "NSE:TBOTEK",
+      "yahoo": "TBOTEK.NS",
+      "name": "TBO Tek",
+      "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
+      "currency": "INR",
+      "symbol": "₹",
+      "price": 1289.8,
+      "high_52w": 1764.8,
+      "low_52w": 1004.2,
+      "change_3m_pct": -15.1,
+      "market_cap": "₹13,773 Cr",
+      "last_close_date": "2026-05-07",
+      "sparkline": [
+        {
+          "date": "2026-02-09",
+          "price": 1519.2
+        },
+        {
+          "date": "2026-02-13",
+          "price": 1520.5
+        },
+        {
+          "date": "2026-02-19",
+          "price": 1371.7
+        },
+        {
+          "date": "2026-02-25",
+          "price": 1285.4
+        },
+        {
+          "date": "2026-03-04",
+          "price": 1142.0
+        },
+        {
+          "date": "2026-03-10",
+          "price": 1220.5
+        },
+        {
+          "date": "2026-03-16",
+          "price": 1179.8
+        },
+        {
+          "date": "2026-03-23",
+          "price": 1018.0
+        },
+        {
+          "date": "2026-03-30",
+          "price": 1057.3
+        },
+        {
+          "date": "2026-04-07",
+          "price": 1082.7
+        },
+        {
+          "date": "2026-04-13",
+          "price": 1173.3
+        },
+        {
+          "date": "2026-04-20",
+          "price": 1282.9
+        },
+        {
+          "date": "2026-04-24",
+          "price": 1243.4
+        },
+        {
+          "date": "2026-04-30",
+          "price": 1255.4
+        },
+        {
+          "date": "2026-05-07",
+          "price": 1289.8
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-02-13",
+          "headline": "TBO Tek Ltd (NSE:TBOTEK) Q3 2026 Earnings Call Highlights: Strong Air Business Growth and ...",
+          "sentiment": "positive",
+          "url": "https://finance.yahoo.com/news/tbo-tek-ltd-nse-tbotek-010521981.html",
+          "source": "GuruFocus.com"
+        },
+        {
+          "date": "2025-11-03",
+          "headline": "TBO Tek Ltd (NSE:TBOTEK) Q2 2026 Earnings Call Highlights: Strong Hotel Growth and Strategic ...",
+          "sentiment": "info",
+          "url": "https://finance.yahoo.com/news/tbo-tek-ltd-nse-tbotek-190046389.html",
+          "source": "GuruFocus.com"
+        },
+        {
+          "date": "2025-08-05",
+          "headline": "TBO Tek Ltd (NSE:TBOTEK) Q1 2026 Earnings Call Highlights: Strong Revenue Growth Amidst ...",
+          "sentiment": "positive",
+          "url": "https://finance.yahoo.com/news/tbo-tek-ltd-nse-tbotek-070830672.html",
+          "source": "GuruFocus.com"
+        }
+      ]
+    },
+    {
+      "id": "HBX",
+      "ticker": "BME:HBX",
+      "yahoo": "HBX.MC",
+      "name": "HBX Group",
+      "subtitle": "Hotelbeds·Bedsonline 모회사",
+      "currency": "EUR",
+      "symbol": "€",
+      "price": 6.78,
+      "high_52w": 11.68,
+      "low_52w": 5.62,
+      "change_3m_pct": -9.5,
+      "market_cap": "€1.66B",
+      "last_close_date": "2026-05-07",
+      "sparkline": [
+        {
+          "date": "2026-02-09",
+          "price": 7.49
+        },
+        {
+          "date": "2026-02-13",
+          "price": 7.85
+        },
+        {
+          "date": "2026-02-19",
+          "price": 7.51
+        },
+        {
+          "date": "2026-02-26",
+          "price": 7.32
+        },
+        {
+          "date": "2026-03-04",
+          "price": 6.81
+        },
+        {
+          "date": "2026-03-10",
+          "price": 6.73
+        },
+        {
+          "date": "2026-03-17",
+          "price": 6.34
+        },
+        {
+          "date": "2026-03-23",
+          "price": 6.19
+        },
+        {
+          "date": "2026-03-27",
+          "price": 6.42
+        },
+        {
+          "date": "2026-04-07",
+          "price": 6.61
+        },
+        {
+          "date": "2026-04-13",
+          "price": 6.755
+        },
+        {
+          "date": "2026-04-17",
+          "price": 7.055
+        },
+        {
+          "date": "2026-04-24",
+          "price": 6.585
+        },
+        {
+          "date": "2026-04-30",
+          "price": 6.96
+        },
+        {
+          "date": "2026-05-07",
+          "price": 6.78
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-01-29",
+          "headline": "HBX Buy-Back And AI Focus Highlight Valuation Gap And Future Dividends",
+          "sentiment": "info",
+          "url": "https://finance.yahoo.com/news/hbx-buy-back-ai-focus-130937342.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2025-11-28",
+          "headline": "HBX Group International PLC (FRA:Q1D) Full Year 2025 Earnings Call Highlights: Strong Financial ...",
+          "sentiment": "positive",
+          "url": "https://finance.yahoo.com/news/hbx-group-international-plc-fra-050026735.html",
+          "source": "GuruFocus.com"
+        },
+        {
+          "date": "2025-10-13",
+          "headline": "Assessing HBX Group International After 36% Drop and Recent Industry Volatility",
+          "sentiment": "negative",
+          "url": "https://finance.yahoo.com/news/assessing-hbx-group-international-36-220852258.html",
+          "source": "Simply Wall St."
+        },
+        {
+          "date": "2025-07-30",
+          "headline": "Spain's HBX shares plunge after full-year guidance revision",
+          "sentiment": "negative",
+          "url": "https://finance.yahoo.com/news/spains-hbx-trims-full-guidance-063015320.html",
+          "source": "Reuters"
+        },
+        {
+          "date": "2025-07-01",
+          "headline": "Blackstone’s Cirsa set for Spanish stock market debut around July 9",
+          "sentiment": "neutral",
+          "url": "https://finance.yahoo.com/news/blackstone-cirsa-set-spanish-stock-114100694.html",
+          "source": "Investing.com"
+        }
+      ]
+    }
+  ],
+  "errors": []
 }
