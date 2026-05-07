@@ -1,0 +1,6 @@
+{
+  "fetched_at": "2026-05-07T00:00:00+00:00",
+  "stocks": [],
+  "errors": [],
+  "_note": "초기 placeholder. GitHub Actions 워크플로우(Update YGG dashboard data)를 수동으로 한 번 실행하면 실제 데이터로 채워집니다."
+}

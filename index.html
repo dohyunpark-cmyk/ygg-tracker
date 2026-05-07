@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YGG Competitor Tracker</title>
+<meta name="description" content="YGG B2B Bed bank 경쟁사 (Web Travel Group, TBO Tek, HBX Group) 주가 및 뉴스 트래커">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #faf9f5;
+    --bg-card: #ffffff;
+    --bg-soft: #f1efe8;
+    --bg-muted: #e8e6dd;
+    --ink: #1c1c1a;
+    --ink-2: #5f5e5a;
+    --ink-3: #888780;
+    --line: rgba(28,28,26,0.08);
+    --line-2: rgba(28,28,26,0.18);
+    --pos: #1d6b3a;
+    --pos-bg: #e6f4eb;
+    --neg: #a32d2d;
+    --neg-bg: #fbecec;
+    --info: #185fa5;
+    --info-bg: #e6f1fb;
+    --warn: #854f0b;
+    --warn-bg: #faeeda;
+    --accent-WEB: #d85a30;
+    --accent-TBO: #185fa5;
+    --accent-HBX: #1d9e75;
+    --sans: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --serif: 'Newsreader', Georgia, serif;
+    --mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614;
+      --bg-card: #1f1f1d;
+      --bg-soft: #242421;
+      --bg-muted: #2c2c29;
+      --ink: #f1efe8;
+      --ink-2: #b4b2a9;
+      --ink-3: #888780;
+      --line: rgba(241,239,232,0.08);
+      --line-2: rgba(241,239,232,0.16);
+      --pos: #97c459;
+      --pos-bg: rgba(151,196,89,0.12);
+      --neg: #f09595;
+      --neg-bg: rgba(240,149,149,0.12);
+      --info: #85b7eb;
+      --info-bg: rgba(133,183,235,0.12);
+      --warn: #ef9f27;
+      --warn-bg: rgba(239,159,39,0.12);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body, html { margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: var(--sans); font-size: 15px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 36px 28px 60px; }
+
+  .hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+  .hero-l h1 { font-family: var(--serif); font-size: 38px; font-weight: 500; margin: 0 0 6px; letter-spacing: -0.02em; line-height: 1.05; }
+  .hero-l h1 em { font-style: italic; color: var(--ink-2); }
+  .hero-l .desc { color: var(--ink-2); font-size: 14px; margin: 0; max-width: 540px; }
+  .hero-r { text-align: right; flex-shrink: 0; }
+  .meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
+  .meta-val { font-family: var(--mono); font-size: 13px; color: var(--ink); margin-bottom: 12px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: var(--bg-card); color: var(--ink); border: 1px solid var(--line-2); border-radius: 6px; font-family: var(--sans); font-size: 13px; font-weight: 500; cursor: pointer; transition: all 0.15s; }
+  .btn:hover { border-color: var(--ink); transform: translateY(-1px); }
+  .btn:active { transform: translateY(0); }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .btn .ico { width: 14px; height: 14px; }
+  .btn.spinning .ico { animation: spin 0.9s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .banner { padding: 12px 16px; border-radius: 8px; font-size: 13px; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+  .banner.warn { background: var(--warn-bg); color: var(--warn); border: 1px solid rgba(133,79,11,0.2); }
+  .banner.error { background: var(--neg-bg); color: var(--neg); border: 1px solid rgba(163,45,45,0.2); }
+  .banner .b-ico { width: 16px; height: 16px; flex-shrink: 0; }
+
+  .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 36px; }
+  @media (max-width: 800px) {
+    .grid-3 { grid-template-columns: 1fr; }
+    .hero { flex-direction: column; align-items: stretch; }
+    .hero-r { text-align: left; }
+  }
+
+  .card { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px 18px; position: relative; overflow: hidden; }
+  .card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent); }
+  .card[data-id="WEB"] { --accent: var(--accent-WEB); }
+  .card[data-id="TBO"] { --accent: var(--accent-TBO); }
+  .card[data-id="HBX"] { --accent: var(--accent-HBX); }
+
+  .ck-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+  .ck-tk { font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.05em; }
+  .ck-spark { width: 70px; height: 22px; flex-shrink: 0; }
+  .ck-name { font-family: var(--serif); font-size: 22px; font-weight: 500; margin: 4px 0 2px; line-height: 1.1; }
+  .ck-sub { font-size: 12px; color: var(--ink-3); margin: 0; }
+
+  .ck-price-row { display: flex; align-items: baseline; gap: 10px; margin: 16px 0 2px; flex-wrap: wrap; }
+  .ck-price { font-family: var(--mono); font-size: 30px; font-weight: 500; letter-spacing: -0.02em; }
+  .ck-ccy { font-family: var(--mono); font-size: 13px; color: var(--ink-3); }
+  .ck-perf { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; font-family: var(--mono); font-size: 12px; font-weight: 500; }
+  .ck-perf.pos { background: var(--pos-bg); color: var(--pos); }
+  .ck-perf.neg { background: var(--neg-bg); color: var(--neg); }
+  .ck-perf-l { font-family: var(--mono); font-size: 10px; color: var(--ink-3); margin-left: 2px; }
+
+  .ck-meta { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin: 16px 0 14px; padding: 12px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .ck-meta-l { font-family: var(--mono); font-size: 9px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; }
+  .ck-meta-v { font-family: var(--mono); font-size: 12px; color: var(--ink); font-weight: 500; }
+
+  .rng-bar { position: relative; height: 4px; background: var(--bg-muted); border-radius: 2px; }
+  .rng-mark { position: absolute; top: -3px; width: 2px; height: 10px; background: var(--accent); border-radius: 1px; }
+  .rng-lab { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10px; color: var(--ink-3); margin-top: 6px; }
+
+  .section-h { display: flex; align-items: baseline; justify-content: space-between; margin: 36px 0 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .section-h h2 { font-family: var(--serif); font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.01em; }
+  .section-h .note { font-family: var(--mono); font-size: 11px; color: var(--ink-3); }
+
+  .chart-card { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 22px 24px 20px; }
+  .chart-h { font-family: var(--serif); font-size: 16px; font-weight: 500; margin: 0 0 4px; }
+  .chart-d { font-size: 12px; color: var(--ink-3); margin: 0 0 14px; }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; font-size: 12px; color: var(--ink-2); }
+  .chart-legend span { display: flex; align-items: center; gap: 6px; }
+  .lg-sw { width: 12px; height: 3px; border-radius: 1px; }
+  .chart-wrap { position: relative; height: 280px; }
+
+  .news-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 800px) { .news-list { grid-template-columns: 1fr; } }
+  .news-col { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  .news-col-h { display: flex; align-items: center; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 4px; }
+  .news-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .news-col[data-id="WEB"] .news-dot { background: var(--accent-WEB); }
+  .news-col[data-id="TBO"] .news-dot { background: var(--accent-TBO); }
+  .news-col[data-id="HBX"] .news-dot { background: var(--accent-HBX); }
+  .news-col-name { font-family: var(--serif); font-size: 15px; font-weight: 500; }
+  .news-col-tk { font-family: var(--mono); font-size: 10px; color: var(--ink-3); margin-left: auto; }
+
+  .news-item { padding: 12px 0; border-bottom: 1px solid var(--line); display: block; color: inherit; text-decoration: none; transition: background 0.15s; margin: 0 -8px; padding-left: 8px; padding-right: 8px; border-radius: 4px; }
+  .news-item:last-child { border-bottom: none; }
+  .news-item[href]:hover { background: var(--bg-soft); }
+  .news-item[href]:hover .news-tt { color: var(--info); }
+  .news-date { font-family: var(--mono); font-size: 10px; color: var(--ink-3); margin-bottom: 4px; letter-spacing: 0.05em; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .news-source { font-family: var(--mono); font-size: 9px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.05em; }
+  .news-tt { font-size: 13px; line-height: 1.5; color: var(--ink); transition: color 0.15s; }
+  .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-family: var(--mono); font-size: 9px; font-weight: 500; margin-right: 5px; vertical-align: 1px; }
+  .tag.positive { background: var(--pos-bg); color: var(--pos); }
+  .tag.negative { background: var(--neg-bg); color: var(--neg); }
+  .tag.info { background: var(--info-bg); color: var(--info); }
+  .tag.neutral { background: var(--bg-muted); color: var(--ink-2); }
+
+  .skeleton { background: linear-gradient(90deg, var(--bg-soft) 25%, var(--bg-muted) 50%, var(--bg-soft) 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 4px; color: transparent; display: inline-block; }
+  @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .footer-l { font-size: 11px; color: var(--ink-3); line-height: 1.6; max-width: 700px; }
+  .footer-l strong { color: var(--ink-2); font-weight: 500; }
+  .footer-r { font-family: var(--mono); font-size: 10px; color: var(--ink-3); }
+
+  .empty { padding: 16px 0; color: var(--ink-3); font-size: 12px; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="hero-l">
+      <h1>YGG <em>Competitor</em> Tracker</h1>
+      <p class="desc">B2B Bed bank 3사 — Web Travel Group, TBO Tek, HBX Group. GitHub Actions가 매일 09:00 KST에 가격·뉴스를 자동 갱신합니다.</p>
+    </div>
+    <div class="hero-r">
+      <div class="meta">Last updated</div>
+      <div class="meta-val" id="updatedAt">—</div>
+      <button class="btn" id="refreshBtn" onclick="loadData(true)">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7l3-3"/><path d="M21 3v6h-6"/><path d="M21 12a9 9 0 0 1-15 6.7l-3 3"/><path d="M3 21v-6h6"/></svg>
+        새로고침
+      </button>
+    </div>
+  </header>
+
+  <div id="banner"></div>
+
+  <section class="grid-3" id="cards">
+    <article class="card" data-id="WEB">
+      <div class="ck-head">
+        <span class="ck-tk">ASX:WEB</span>
+        <div class="ck-spark" data-f="spark"></div>
+      </div>
+      <h3 class="ck-name">Web Travel Group</h3>
+      <p class="ck-sub" data-f="sub">WebBeds 단일 운영사 (호주 상장 B2B)</p>
+      <div class="ck-price-row">
+        <span class="ck-price" data-f="price"><span class="skeleton">000.00</span></span>
+        <span class="ck-ccy" data-f="ccy"></span>
+        <span class="ck-perf" data-f="perf"><span class="skeleton">-00%</span></span>
+        <span class="ck-perf-l">3M</span>
+      </div>
+      <div class="ck-meta">
+        <div><div class="ck-meta-l">시총</div><div class="ck-meta-v" data-f="mcap"><span class="skeleton">—</span></div></div>
+        <div><div class="ck-meta-l">52w 최고</div><div class="ck-meta-v" data-f="hi"><span class="skeleton">0.00</span></div></div>
+        <div><div class="ck-meta-l">52w 최저</div><div class="ck-meta-v" data-f="lo"><span class="skeleton">0.00</span></div></div>
+      </div>
+      <div class="rng-bar"><div class="rng-mark" data-f="rng" style="left:50%"></div></div>
+      <div class="rng-lab"><span data-f="lo2">—</span><span data-f="hi2">—</span></div>
+    </article>
+
+    <article class="card" data-id="TBO">
+      <div class="ck-head">
+        <span class="ck-tk">NSE:TBOTEK</span>
+        <div class="ck-spark" data-f="spark"></div>
+      </div>
+      <h3 class="ck-name">TBO Tek</h3>
+      <p class="ck-sub" data-f="sub">인도 글로벌 B2B 트래블 플랫폼</p>
+      <div class="ck-price-row">
+        <span class="ck-price" data-f="price"><span class="skeleton">000.00</span></span>
+        <span class="ck-ccy" data-f="ccy"></span>
+        <span class="ck-perf" data-f="perf"><span class="skeleton">-00%</span></span>
+        <span class="ck-perf-l">3M</span>
+      </div>
+      <div class="ck-meta">
+        <div><div class="ck-meta-l">시총</div><div class="ck-meta-v" data-f="mcap"><span class="skeleton">—</span></div></div>
+        <div><div class="ck-meta-l">52w 최고</div><div class="ck-meta-v" data-f="hi"><span class="skeleton">0.00</span></div></div>
+        <div><div class="ck-meta-l">52w 최저</div><div class="ck-meta-v" data-f="lo"><span class="skeleton">0.00</span></div></div>
+      </div>
+      <div class="rng-bar"><div class="rng-mark" data-f="rng" style="left:50%"></div></div>
+      <div class="rng-lab"><span data-f="lo2">—</span><span data-f="hi2">—</span></div>
+    </article>
+
+    <article class="card" data-id="HBX">
+      <div class="ck-head">
+        <span class="ck-tk">BME:HBX</span>
+        <div class="ck-spark" data-f="spark"></div>
+      </div>
+      <h3 class="ck-name">HBX Group</h3>
+      <p class="ck-sub" data-f="sub">Hotelbeds·Bedsonline 모회사</p>
+      <div class="ck-price-row">
+        <span class="ck-price" data-f="price"><span class="skeleton">000.00</span></span>
+        <span class="ck-ccy" data-f="ccy"></span>
+        <span class="ck-perf" data-f="perf"><span class="skeleton">-00%</span></span>
+        <span class="ck-perf-l">3M</span>
+      </div>
+      <div class="ck-meta">
+        <div><div class="ck-meta-l">시총</div><div class="ck-meta-v" data-f="mcap"><span class="skeleton">—</span></div></div>
+        <div><div class="ck-meta-l">52w 최고</div><div class="ck-meta-v" data-f="hi"><span class="skeleton">0.00</span></div></div>
+        <div><div class="ck-meta-l">52w 최저</div><div class="ck-meta-v" data-f="lo"><span class="skeleton">0.00</span></div></div>
+      </div>
+      <div class="rng-bar"><div class="rng-mark" data-f="rng" style="left:50%"></div></div>
+      <div class="rng-lab"><span data-f="lo2">—</span><span data-f="hi2">—</span></div>
+    </article>
+  </section>
+
+  <div class="section-h">
+    <h2>3개월 정규화 주가 추이</h2>
+    <span class="note">3개월 전 = 100</span>
+  </div>
+  <div class="chart-card">
+    <h3 class="chart-h">3사 상대 수익률 비교</h3>
+    <p class="chart-d">통화·주가 절대값 차이를 제거한 정규화 추이. yfinance 일봉 종가 기준.</p>
+    <div class="chart-legend" id="chartLegend"></div>
+    <div class="chart-wrap"><canvas id="perfChart" role="img" aria-label="3개월 정규화 주가 추이 비교 차트">3사 3개월 정규화 주가 추이.</canvas></div>
+  </div>
+
+  <div class="section-h">
+    <h2>최근 주요 이슈</h2>
+    <span class="note">past 60 days</span>
+  </div>
+  <div class="news-list" id="newsList">
+    <div class="news-col" data-id="WEB">
+      <div class="news-col-h"><span class="news-dot"></span><span class="news-col-name">Web Travel Group</span><span class="news-col-tk">ASX:WEB</span></div>
+      <div class="news-body" data-f="news"><div class="empty">로딩 중…</div></div>
+    </div>
+    <div class="news-col" data-id="TBO">
+      <div class="news-col-h"><span class="news-dot"></span><span class="news-col-name">TBO Tek</span><span class="news-col-tk">NSE:TBOTEK</span></div>
+      <div class="news-body" data-f="news"><div class="empty">로딩 중…</div></div>
+    </div>
+    <div class="news-col" data-id="HBX">
+      <div class="news-col-h"><span class="news-dot"></span><span class="news-col-name">HBX Group</span><span class="news-col-tk">BME:HBX</span></div>
+      <div class="news-body" data-f="news"><div class="empty">로딩 중…</div></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="footer-l">
+      <strong>데이터 출처:</strong> 가격·52w 범위·시총은 yfinance(Yahoo Finance), 뉴스는 Finnhub Company News 또는 Yahoo Finance.
+      매일 09:00 KST에 GitHub Actions가 자동 갱신합니다.
+      모든 수치는 정보 제공 목적이며 매매 의사결정의 직접 근거로 활용하지 마세요.
+    </p>
+    <span class="footer-r">YGG • Global Finance</span>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+  const COLORS = { WEB: '#d85a30', TBO: '#185fa5', HBX: '#1d9e75' };
+  const STALE_HOURS = 28; // warn if data older than this
+  let chartInstance = null;
+  let isLoading = false;
+
+  // ---------------- helpers ----------------
+  function fmtNumber(n) {
+    if (typeof n !== 'number' || isNaN(n)) return '—';
+    if (Math.abs(n) >= 1000) return n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+    return n.toFixed(2);
+  }
+
+  function fmtAgo(iso) {
+    if (!iso) return '—';
+    const ms = Date.now() - new Date(iso).getTime();
+    if (ms < 0) return '방금 전';
+    const m = Math.floor(ms / 60000);
+    if (m < 1) return '방금 전';
+    if (m < 60) return `${m}분 전`;
+    const h = Math.floor(m / 60);
+    if (h < 24) return `${h}시간 전`;
+    const d = Math.floor(h / 24);
+    return `${d}일 전`;
+  }
+
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+
+  // ---------------- sparkline (SVG) ----------------
+  function renderSparkline(container, points, color) {
+    if (!container || !points || points.length < 2) {
+      if (container) container.innerHTML = '';
+      return;
+    }
+    const W = 70, H = 22, P = 1.5;
+    const prices = points.map(p => p.price);
+    const min = Math.min(...prices);
+    const max = Math.max(...prices);
+    const range = (max - min) || 1;
+    const dx = (W - 2 * P) / (prices.length - 1);
+
+    let path = '';
+    let area = '';
+    prices.forEach((v, i) => {
+      const x = P + i * dx;
+      const y = P + (H - 2 * P) * (1 - (v - min) / range);
+      path += (i === 0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1) + ' ';
+      if (i === 0) area += 'M' + x.toFixed(1) + ',' + (H - P).toFixed(1) + ' L';
+      area += x.toFixed(1) + ',' + y.toFixed(1) + ' ';
+    });
+    area += 'L' + (P + (prices.length - 1) * dx).toFixed(1) + ',' + (H - P).toFixed(1) + ' Z';
+
+    container.innerHTML =
+      `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+         <path d="${area}" fill="${color}" opacity="0.15"/>
+         <path d="${path}" fill="none" stroke="${color}" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+       </svg>`;
+  }
+
+  // ---------------- card render ----------------
+  function renderCard(stock) {
+    const card = document.querySelector(`.card[data-id="${stock.id}"]`);
+    if (!card) return;
+    const set = (sel, val) => { const el = card.querySelector(sel); if (el) el.textContent = val; };
+
+    set('[data-f="sub"]', stock.subtitle);
+    set('[data-f="price"]', fmtNumber(stock.price));
+    set('[data-f="ccy"]', stock.currency || '');
+
+    const perfEl = card.querySelector('[data-f="perf"]');
+    if (perfEl && typeof stock.change_3m_pct === 'number') {
+      const v = stock.change_3m_pct;
+      perfEl.textContent = `${v >= 0 ? '+' : '−'}${Math.abs(v).toFixed(1)}%`;
+      perfEl.className = `ck-perf ${v >= 0 ? 'pos' : 'neg'}`;
+    }
+
+    set('[data-f="mcap"]', stock.market_cap || '—');
+    set('[data-f="hi"]', fmtNumber(stock.high_52w));
+    set('[data-f="lo"]', fmtNumber(stock.low_52w));
+    set('[data-f="hi2"]', fmtNumber(stock.high_52w));
+    set('[data-f="lo2"]', fmtNumber(stock.low_52w));
+
+    const rngEl = card.querySelector('[data-f="rng"]');
+    if (rngEl && stock.high_52w && stock.low_52w && stock.high_52w > stock.low_52w) {
+      const pct = Math.max(0, Math.min(100,
+        ((stock.price - stock.low_52w) / (stock.high_52w - stock.low_52w)) * 100));
+      rngEl.style.left = `${pct.toFixed(1)}%`;
+    }
+
+    renderSparkline(
+      card.querySelector('[data-f="spark"]'),
+      stock.sparkline || [],
+      COLORS[stock.id] || '#888'
+    );
+  }
+
+  // ---------------- news render ----------------
+  function renderNews(stock) {
+    const col = document.querySelector(`.news-col[data-id="${stock.id}"]`);
+    if (!col) return;
+    const body = col.querySelector('[data-f="news"]');
+    if (!body) return;
+
+    const items = (stock.news || []).slice(0, 6);
+    if (items.length === 0) {
+      body.innerHTML = '<div class="empty">최근 뉴스가 없습니다.</div>';
+      return;
+    }
+
+    body.innerHTML = items.map(n => {
+      const sent = ['positive', 'negative', 'info', 'neutral'].includes(n.sentiment)
+        ? n.sentiment : 'neutral';
+      const tagSym = { positive: '+', negative: '−', info: 'i', neutral: '·' }[sent];
+      const tag = `<span class="tag ${sent}">${tagSym}</span>`;
+      const headline = escapeHtml(n.headline || '');
+      const date = escapeHtml(n.date || '');
+      const source = escapeHtml(n.source || '');
+      const url = n.url ? escapeHtml(n.url) : '';
+      const wrapStart = url ? `<a class="news-item" href="${url}" target="_blank" rel="noopener noreferrer">` : `<div class="news-item">`;
+      const wrapEnd = url ? `</a>` : `</div>`;
+      return `${wrapStart}
+        <div class="news-date"><span>${date}</span><span class="news-source">${source}</span></div>
+        <div class="news-tt">${tag}${headline}</div>
+      ${wrapEnd}`;
+    }).join('');
+  }
+
+  // ---------------- chart render ----------------
+  function renderChart(stocks) {
+    const ctx = document.getElementById('perfChart');
+    const legendEl = document.getElementById('chartLegend');
+    if (!ctx || typeof Chart === 'undefined') return;
+
+    const datasets = [];
+    const allDates = new Set();
+
+    stocks.forEach(s => {
+      const sp = s.sparkline || [];
+      sp.forEach(p => allDates.add(p.date));
+    });
+    const labels = Array.from(allDates).sort();
+
+    stocks.forEach(s => {
+      const sp = s.sparkline || [];
+      if (sp.length < 2) return;
+      const base = sp[0].price;
+      const map = new Map(sp.map(p => [p.date, p.price]));
+      const data = labels.map(d => {
+        const v = map.get(d);
+        return v != null ? +((v / base - 1) * 100 + 100).toFixed(2) : null;
+      });
+      const color = COLORS[s.id] || '#888';
+      datasets.push({
+        label: s.name,
+        data,
+        borderColor: color,
+        backgroundColor: color + '14',
+        borderWidth: 1.8,
+        tension: 0.25,
+        pointRadius: 0,
+        pointHoverRadius: 4,
+        spanGaps: true,
+      });
+    });
+
+    if (legendEl) {
+      legendEl.innerHTML = datasets.map(d =>
+        `<span><span class="lg-sw" style="background:${d.borderColor}"></span>${escapeHtml(d.label)}</span>`
+      ).join('');
+    }
+
+    if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
+
+    chartInstance = new Chart(ctx, {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: 'rgba(40,40,40,0.92)',
+            titleFont: { size: 11, family: 'JetBrains Mono' },
+            bodyFont: { size: 12 },
+            padding: 8,
+            callbacks: {
+              label: (c) => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}`,
+            },
+          },
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: {
+              font: { size: 10, family: 'JetBrains Mono' },
+              color: '#888780',
+              maxRotation: 0,
+              autoSkip: true,
+              maxTicksLimit: 8,
+            },
+          },
+          y: {
+            grid: { color: 'rgba(128,128,128,0.12)' },
+            ticks: {
+              font: { size: 10, family: 'JetBrains Mono' },
+              color: '#888780',
+              callback: (v) => v,
+            },
+          },
+        },
+      },
+    });
+  }
+
+  // ---------------- banner ----------------
+  function showBanner(html, kind = 'warn') {
+    const el = document.getElementById('banner');
+    if (!el) return;
+    el.innerHTML = html ? `<div class="banner ${kind}">
+      <svg class="b-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span>${html}</span>
+    </div>` : '';
+  }
+
+  // ---------------- main flow ----------------
+  function renderAll(data) {
+    document.getElementById('updatedAt').textContent = fmtAgo(data.fetched_at);
+
+    const stocks = (data.stocks || []);
+    if (stocks.length === 0) {
+      showBanner('데이터가 비어있습니다. GitHub Actions가 한 번 실행되어야 채워집니다 — 리포지토리 Actions 탭에서 <code>Update YGG dashboard data</code> 워크플로우를 수동으로 한 번 실행해주세요.', 'warn');
+      return;
+    }
+
+    stocks.forEach(s => {
+      renderCard(s);
+      renderNews(s);
+    });
+    renderChart(stocks);
+
+    // Stale data warning
+    const ageH = (Date.now() - new Date(data.fetched_at).getTime()) / 3600000;
+    if (ageH > STALE_HOURS) {
+      showBanner(`마지막 갱신이 <strong>${Math.floor(ageH)}시간 전</strong>입니다. GitHub Actions의 동작 여부를 확인해주세요.`, 'warn');
+    } else if (data.errors && data.errors.length) {
+      showBanner(`일부 종목 갱신에 실패했습니다: ${escapeHtml(data.errors.join('; '))}`, 'warn');
+    } else {
+      showBanner('');
+    }
+  }
+
+  async function loadData(forceFresh = false) {
+    if (isLoading) return;
+    isLoading = true;
+
+    const btn = document.getElementById('refreshBtn');
+    btn.disabled = true;
+    btn.classList.add('spinning');
+
+    try {
+      const url = forceFresh
+        ? `./data.json?t=${Date.now()}`
+        : `./data.json`;
+      const res = await fetch(url, { cache: forceFresh ? 'no-store' : 'default' });
+      if (!res.ok) {
+        throw new Error(`data.json HTTP ${res.status}`);
+      }
+      const data = await res.json();
+      renderAll(data);
+    } catch (err) {
+      console.error('Load failed:', err);
+      showBanner(`데이터 로딩 실패: ${escapeHtml(err.message)}. <code>data.json</code> 파일이 같은 경로에 있는지 확인해주세요.`, 'error');
+    } finally {
+      isLoading = false;
+      btn.disabled = false;
+      btn.classList.remove('spinning');
+    }
+  }
+
+  loadData(false);
+</script>
+</body>
+</html>
