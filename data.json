@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T07:36:58.434026+00:00",
+  "fetched_at": "2026-05-08T02:25:24.552821+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,12 +9,12 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.86,
+      "price": 2.77,
       "high_52w": 5.49,
       "low_52w": 2.48,
-      "change_3m_pct": -18.5,
-      "market_cap": "A$1.04B",
-      "last_close_date": "2026-05-07",
+      "change_3m_pct": -21.2,
+      "market_cap": "A$1.00B",
+      "last_close_date": "2026-05-08",
       "sparkline": [
         {
           "date": "2026-02-09",
@@ -25,56 +25,56 @@
           "price": 3.48
         },
         {
-          "date": "2026-02-19",
-          "price": 3.63
+          "date": "2026-02-20",
+          "price": 3.52
         },
         {
           "date": "2026-02-26",
           "price": 3.24
         },
         {
-          "date": "2026-03-04",
-          "price": 2.86
+          "date": "2026-03-05",
+          "price": 2.91
         },
         {
           "date": "2026-03-11",
           "price": 2.8
         },
         {
-          "date": "2026-03-17",
-          "price": 2.65
+          "date": "2026-03-18",
+          "price": 2.82
         },
         {
           "date": "2026-03-24",
           "price": 2.73
         },
         {
-          "date": "2026-03-30",
-          "price": 2.6
+          "date": "2026-03-31",
+          "price": 2.61
         },
         {
-          "date": "2026-04-07",
-          "price": 2.67
+          "date": "2026-04-08",
+          "price": 2.89
         },
         {
-          "date": "2026-04-14",
-          "price": 2.66
+          "date": "2026-04-15",
+          "price": 2.8
         },
         {
-          "date": "2026-04-20",
-          "price": 2.88
+          "date": "2026-04-21",
+          "price": 2.8
         },
         {
-          "date": "2026-04-27",
-          "price": 2.71
+          "date": "2026-04-28",
+          "price": 2.69
         },
         {
-          "date": "2026-05-01",
-          "price": 2.68
+          "date": "2026-05-04",
+          "price": 2.7
         },
         {
-          "date": "2026-05-07",
-          "price": 2.86
+          "date": "2026-05-08",
+          "price": 2.765
         }
       ],
       "news": [
@@ -130,11 +130,11 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1289.8,
+      "price": 1265.2,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": -15.1,
-      "market_cap": "₹13,773 Cr",
+      "change_3m_pct": -16.7,
+      "market_cap": "₹13,510 Cr",
       "last_close_date": "2026-05-07",
       "sparkline": [
         {
@@ -195,7 +195,7 @@
         },
         {
           "date": "2026-05-07",
-          "price": 1289.8
+          "price": 1265.2
         }
       ],
       "news": [
@@ -230,11 +230,11 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 6.78,
+      "price": 6.7,
       "high_52w": 11.68,
       "low_52w": 5.62,
-      "change_3m_pct": -9.5,
-      "market_cap": "€1.66B",
+      "change_3m_pct": -10.5,
+      "market_cap": "€1.64B",
       "last_close_date": "2026-05-07",
       "sparkline": [
         {
@@ -295,7 +295,7 @@
         },
         {
           "date": "2026-05-07",
-          "price": 6.78
+          "price": 6.705
         }
       ],
       "news": [
