@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T02:31:23.092460+00:00",
+  "fetched_at": "2026-05-15T02:30:33.851542+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,12 +9,12 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.59,
+      "price": 2.5,
       "high_52w": 5.49,
       "low_52w": 2.48,
-      "change_3m_pct": -24.0,
-      "market_cap": "A$937M",
-      "last_close_date": "2026-05-14",
+      "change_3m_pct": -26.7,
+      "market_cap": "A$905M",
+      "last_close_date": "2026-05-15",
       "sparkline": [
         {
           "date": "2026-02-16",
@@ -25,59 +25,66 @@
           "price": 3.52
         },
         {
-          "date": "2026-02-26",
-          "price": 3.24
+          "date": "2026-02-27",
+          "price": 3.23
         },
         {
           "date": "2026-03-05",
           "price": 2.91
         },
         {
-          "date": "2026-03-11",
-          "price": 2.8
+          "date": "2026-03-12",
+          "price": 2.75
         },
         {
           "date": "2026-03-18",
           "price": 2.82
         },
         {
-          "date": "2026-03-24",
-          "price": 2.73
+          "date": "2026-03-25",
+          "price": 2.87
         },
         {
           "date": "2026-03-31",
           "price": 2.61
         },
         {
-          "date": "2026-04-08",
-          "price": 2.89
+          "date": "2026-04-09",
+          "price": 2.73
         },
         {
-          "date": "2026-04-14",
-          "price": 2.66
-        },
-        {
-          "date": "2026-04-21",
+          "date": "2026-04-15",
           "price": 2.8
         },
         {
-          "date": "2026-04-27",
-          "price": 2.71
+          "date": "2026-04-22",
+          "price": 2.8
         },
         {
-          "date": "2026-05-04",
+          "date": "2026-04-28",
+          "price": 2.69
+        },
+        {
+          "date": "2026-05-05",
           "price": 2.7
         },
         {
-          "date": "2026-05-08",
-          "price": 2.75
+          "date": "2026-05-11",
+          "price": 2.6
         },
         {
-          "date": "2026-05-14",
-          "price": 2.59
+          "date": "2026-05-15",
+          "price": 2.5
         }
       ],
       "news": [
+        {
+          "date": "2026-05-14",
+          "headline": "3 ASX Stocks Estimated To Be Trading At A 10.1% To 41.2% Discount",
+          "sentiment": "positive",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-asx-stocks-estimated-trading-193431820.html",
+          "source": "Simply Wall St."
+        },
         {
           "date": "2026-05-12",
           "headline": "3 ASX Stocks That May Be Trading Below Estimated Intrinsic Value By Up To 46.1%",
@@ -112,13 +119,6 @@
           "sentiment": "neutral",
           "url": "https://finance.yahoo.com/markets/stocks/articles/asx-value-picks-predictive-discovery-193449488.html",
           "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-03",
-          "headline": "3 ASX Stocks Estimated To Be Undervalued In May 2026",
-          "sentiment": "negative",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-asx-stocks-estimated-undervalued-193429657.html",
-          "source": "Simply Wall St."
         }
       ]
     },
@@ -130,72 +130,72 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1174.5,
+      "price": 1181.4,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": -22.8,
-      "market_cap": "₹12,542 Cr",
-      "last_close_date": "2026-05-13",
+      "change_3m_pct": -18.1,
+      "market_cap": "₹12,615 Cr",
+      "last_close_date": "2026-05-14",
       "sparkline": [
         {
-          "date": "2026-02-13",
-          "price": 1520.5
+          "date": "2026-02-16",
+          "price": 1442.3
         },
         {
-          "date": "2026-02-19",
-          "price": 1371.7
+          "date": "2026-02-20",
+          "price": 1358.4
         },
         {
-          "date": "2026-02-25",
-          "price": 1285.4
+          "date": "2026-02-26",
+          "price": 1256.4
         },
         {
-          "date": "2026-03-04",
-          "price": 1142.0
+          "date": "2026-03-05",
+          "price": 1154.8
         },
         {
-          "date": "2026-03-10",
-          "price": 1220.5
+          "date": "2026-03-11",
+          "price": 1207.2
         },
         {
-          "date": "2026-03-17",
-          "price": 1179.3
+          "date": "2026-03-18",
+          "price": 1170.4
         },
         {
-          "date": "2026-03-23",
-          "price": 1018.0
+          "date": "2026-03-24",
+          "price": 1059.3
         },
         {
-          "date": "2026-03-30",
-          "price": 1057.3
+          "date": "2026-04-01",
+          "price": 1093.9
         },
         {
-          "date": "2026-04-07",
-          "price": 1082.7
+          "date": "2026-04-08",
+          "price": 1162.6
         },
         {
-          "date": "2026-04-13",
-          "price": 1173.3
+          "date": "2026-04-15",
+          "price": 1226.3
         },
         {
-          "date": "2026-04-21",
-          "price": 1279.3
+          "date": "2026-04-22",
+          "price": 1277.2
         },
         {
-          "date": "2026-04-27",
-          "price": 1268.6
+          "date": "2026-04-28",
+          "price": 1254.4
         },
         {
-          "date": "2026-05-01",
-          "price": 1255.4
+          "date": "2026-05-04",
+          "price": 1286.1
         },
         {
-          "date": "2026-05-07",
-          "price": 1265.2
+          "date": "2026-05-08",
+          "price": 1238.2
         },
         {
-          "date": "2026-05-13",
-          "price": 1174.5
+          "date": "2026-05-14",
+          "price": 1181.4
         }
       ],
       "news": [
@@ -230,72 +230,72 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 6.48,
+      "price": 6.3,
       "high_52w": 11.68,
       "low_52w": 5.62,
-      "change_3m_pct": -17.5,
-      "market_cap": "€1.58B",
-      "last_close_date": "2026-05-13",
+      "change_3m_pct": -18.5,
+      "market_cap": "€1.54B",
+      "last_close_date": "2026-05-14",
       "sparkline": [
         {
-          "date": "2026-02-13",
-          "price": 7.85
+          "date": "2026-02-16",
+          "price": 7.74
         },
         {
-          "date": "2026-02-19",
-          "price": 7.51
+          "date": "2026-02-20",
+          "price": 7.6
         },
         {
-          "date": "2026-02-25",
-          "price": 7.17
+          "date": "2026-02-26",
+          "price": 7.32
         },
         {
-          "date": "2026-03-04",
-          "price": 6.81
+          "date": "2026-03-05",
+          "price": 6.8
         },
         {
-          "date": "2026-03-10",
-          "price": 6.73
+          "date": "2026-03-11",
+          "price": 6.66
         },
         {
-          "date": "2026-03-16",
-          "price": 6.41
+          "date": "2026-03-17",
+          "price": 6.34
         },
         {
-          "date": "2026-03-23",
-          "price": 6.19
+          "date": "2026-03-24",
+          "price": 6.21
         },
         {
-          "date": "2026-03-27",
-          "price": 6.42
+          "date": "2026-03-30",
+          "price": 6.34
         },
         {
-          "date": "2026-04-02",
-          "price": 6.68
+          "date": "2026-04-07",
+          "price": 6.61
         },
         {
-          "date": "2026-04-13",
-          "price": 6.755
+          "date": "2026-04-14",
+          "price": 6.74
         },
         {
-          "date": "2026-04-17",
-          "price": 7.055
+          "date": "2026-04-20",
+          "price": 7.0
         },
         {
-          "date": "2026-04-23",
-          "price": 6.71
+          "date": "2026-04-24",
+          "price": 6.585
         },
         {
-          "date": "2026-04-30",
-          "price": 6.96
+          "date": "2026-05-04",
+          "price": 6.775
         },
         {
-          "date": "2026-05-07",
-          "price": 6.705
+          "date": "2026-05-08",
+          "price": 6.63
         },
         {
-          "date": "2026-05-13",
-          "price": 6.48
+          "date": "2026-05-14",
+          "price": 6.305
         }
       ],
       "news": [
