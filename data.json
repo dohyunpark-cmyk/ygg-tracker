@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T02:27:53.155151+00:00",
+  "fetched_at": "2026-05-18T02:38:07.510394+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,75 +9,82 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.44,
+      "price": 2.37,
       "high_52w": 5.49,
-      "low_52w": 2.44,
-      "change_3m_pct": -28.4,
-      "market_cap": "A$883M",
-      "last_close_date": "2026-05-15",
+      "low_52w": 2.36,
+      "change_3m_pct": -33.1,
+      "market_cap": "A$858M",
+      "last_close_date": "2026-05-18",
       "sparkline": [
         {
-          "date": "2026-02-16",
-          "price": 3.41
+          "date": "2026-02-18",
+          "price": 3.54
         },
         {
-          "date": "2026-02-20",
-          "price": 3.52
-        },
-        {
-          "date": "2026-02-27",
+          "date": "2026-02-24",
           "price": 3.23
         },
         {
-          "date": "2026-03-05",
-          "price": 2.91
+          "date": "2026-03-02",
+          "price": 3.02
         },
         {
-          "date": "2026-03-12",
-          "price": 2.75
-        },
-        {
-          "date": "2026-03-18",
-          "price": 2.82
-        },
-        {
-          "date": "2026-03-25",
-          "price": 2.87
-        },
-        {
-          "date": "2026-03-31",
-          "price": 2.61
-        },
-        {
-          "date": "2026-04-09",
-          "price": 2.73
-        },
-        {
-          "date": "2026-04-15",
+          "date": "2026-03-09",
           "price": 2.8
         },
         {
-          "date": "2026-04-22",
-          "price": 2.8
+          "date": "2026-03-13",
+          "price": 2.66
         },
         {
-          "date": "2026-04-28",
-          "price": 2.69
+          "date": "2026-03-20",
+          "price": 2.88
         },
         {
-          "date": "2026-05-05",
-          "price": 2.7
+          "date": "2026-03-26",
+          "price": 2.77
         },
         {
-          "date": "2026-05-11",
+          "date": "2026-04-02",
           "price": 2.6
         },
         {
-          "date": "2026-05-15",
-          "price": 2.44
+          "date": "2026-04-10",
+          "price": 2.69
+        },
+        {
+          "date": "2026-04-16",
+          "price": 2.98
+        },
+        {
+          "date": "2026-04-23",
+          "price": 2.74
+        },
+        {
+          "date": "2026-04-29",
+          "price": 2.69
+        },
+        {
+          "date": "2026-05-06",
+          "price": 2.81
+        },
+        {
+          "date": "2026-05-12",
+          "price": 2.59
+        },
+        {
+          "date": "2026-05-18",
+          "price": 2.37
         }
       ],
       "news": [
+        {
+          "date": "2026-05-17",
+          "headline": "Integral Diagnostics And 2 Other ASX Stocks That May Be Trading Below Estimated Value",
+          "sentiment": "negative",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/integral-diagnostics-2-other-asx-193434811.html",
+          "source": "Simply Wall St."
+        },
         {
           "date": "2026-05-14",
           "headline": "3 ASX Stocks Estimated To Be Trading At A 10.1% To 41.2% Discount",
@@ -112,13 +119,6 @@
           "sentiment": "neutral",
           "url": "https://finance.yahoo.com/markets/stocks/articles/asx-stocks-could-trading-below-193503295.html",
           "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-04",
-          "headline": "ASX Value Picks Predictive Discovery And 2 More Stocks Estimated Below Intrinsic Value",
-          "sentiment": "neutral",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-value-picks-predictive-discovery-193449488.html",
-          "source": "Simply Wall St."
         }
       ]
     },
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": -18.4,
-      "market_cap": "₹12,568 Cr",
+      "market_cap": "₹13,126 Cr",
       "last_close_date": "2026-05-15",
       "sparkline": [
         {
