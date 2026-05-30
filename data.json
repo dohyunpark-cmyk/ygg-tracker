@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-29T02:34:24.059099+00:00",
+  "fetched_at": "2026-05-30T02:28:26.121931+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,11 +9,11 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.65,
+      "price": 2.61,
       "high_52w": 5.23,
       "low_52w": 2.17,
-      "change_3m_pct": -12.3,
-      "market_cap": "A$959M",
+      "change_3m_pct": -13.6,
+      "market_cap": "A$945M",
       "last_close_date": "2026-05-29",
       "sparkline": [
         {
@@ -74,7 +74,7 @@
         },
         {
           "date": "2026-05-29",
-          "price": 2.65
+          "price": 2.61
         }
       ],
       "news": [
@@ -130,12 +130,12 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1225.0,
+      "price": 1229.4,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": 4.2,
-      "market_cap": "₹13,070 Cr",
-      "last_close_date": "2026-05-27",
+      "change_3m_pct": 4.6,
+      "market_cap": "₹13,128 Cr",
+      "last_close_date": "2026-05-29",
       "sparkline": [
         {
           "date": "2026-03-02",
@@ -158,12 +158,12 @@
           "price": 1090.4
         },
         {
-          "date": "2026-04-02",
-          "price": 1093.1
+          "date": "2026-04-06",
+          "price": 1096.5
         },
         {
-          "date": "2026-04-09",
-          "price": 1160.7
+          "date": "2026-04-10",
+          "price": 1180.3
         },
         {
           "date": "2026-04-17",
@@ -178,24 +178,24 @@
           "price": 1274.6
         },
         {
-          "date": "2026-05-05",
-          "price": 1283.6
+          "date": "2026-05-06",
+          "price": 1277.8
         },
         {
-          "date": "2026-05-11",
-          "price": 1191.3
+          "date": "2026-05-12",
+          "price": 1169.4
         },
         {
-          "date": "2026-05-15",
-          "price": 1177.0
+          "date": "2026-05-18",
+          "price": 1131.0
         },
         {
-          "date": "2026-05-21",
-          "price": 1200.3
+          "date": "2026-05-22",
+          "price": 1194.6
         },
         {
-          "date": "2026-05-27",
-          "price": 1225.0
+          "date": "2026-05-29",
+          "price": 1229.4
         }
       ],
       "news": [
@@ -230,12 +230,12 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 6.88,
+      "price": 7.12,
       "high_52w": 11.68,
       "low_52w": 5.62,
-      "change_3m_pct": -0.2,
-      "market_cap": "€1.68B",
-      "last_close_date": "2026-05-28",
+      "change_3m_pct": 3.4,
+      "market_cap": "€1.74B",
+      "last_close_date": "2026-05-29",
       "sparkline": [
         {
           "date": "2026-03-02",
@@ -258,44 +258,44 @@
           "price": 6.34
         },
         {
-          "date": "2026-03-31",
-          "price": 6.42
+          "date": "2026-04-01",
+          "price": 6.58
         },
         {
           "date": "2026-04-09",
           "price": 6.69
         },
         {
-          "date": "2026-04-15",
-          "price": 6.83
+          "date": "2026-04-16",
+          "price": 7.055
         },
         {
-          "date": "2026-04-21",
-          "price": 7.03
+          "date": "2026-04-22",
+          "price": 6.79
         },
         {
           "date": "2026-04-28",
           "price": 6.965
         },
         {
-          "date": "2026-05-05",
-          "price": 6.665
+          "date": "2026-05-06",
+          "price": 6.745
         },
         {
-          "date": "2026-05-11",
-          "price": 6.48
+          "date": "2026-05-12",
+          "price": 6.545
         },
         {
-          "date": "2026-05-18",
-          "price": 6.07
+          "date": "2026-05-19",
+          "price": 6.2
         },
         {
-          "date": "2026-05-22",
-          "price": 6.315
+          "date": "2026-05-25",
+          "price": 6.74
         },
         {
-          "date": "2026-05-28",
-          "price": 6.875
+          "date": "2026-05-29",
+          "price": 7.125
         }
       ],
       "news": [
