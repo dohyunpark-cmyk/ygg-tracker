@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-31T02:44:52.840242+00:00",
+  "fetched_at": "2026-06-01T02:53:48.625661+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,12 +9,12 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.61,
+      "price": 2.49,
       "high_52w": 5.23,
       "low_52w": 2.17,
-      "change_3m_pct": -13.6,
-      "market_cap": "A$945M",
-      "last_close_date": "2026-05-29",
+      "change_3m_pct": -17.5,
+      "market_cap": "A$901M",
+      "last_close_date": "2026-06-01",
       "sparkline": [
         {
           "date": "2026-03-02",
@@ -45,36 +45,36 @@
           "price": 2.69
         },
         {
-          "date": "2026-04-16",
-          "price": 2.98
+          "date": "2026-04-17",
+          "price": 2.9
         },
         {
           "date": "2026-04-23",
           "price": 2.74
         },
         {
-          "date": "2026-04-29",
-          "price": 2.69
+          "date": "2026-04-30",
+          "price": 2.65
         },
         {
           "date": "2026-05-06",
           "price": 2.81
         },
         {
-          "date": "2026-05-12",
-          "price": 2.59
+          "date": "2026-05-13",
+          "price": 2.65
         },
         {
           "date": "2026-05-19",
           "price": 2.38
         },
         {
-          "date": "2026-05-25",
-          "price": 2.42
+          "date": "2026-05-26",
+          "price": 2.38
         },
         {
-          "date": "2026-05-29",
-          "price": 2.61
+          "date": "2026-06-01",
+          "price": 2.49
         }
       ],
       "news": [
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": 4.6,
-      "market_cap": "₹13,128 Cr",
+      "market_cap": "₹13,152 Cr",
       "last_close_date": "2026-05-29",
       "sparkline": [
         {
