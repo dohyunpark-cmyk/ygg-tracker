@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T02:52:51.041437+00:00",
+  "fetched_at": "2026-06-15T02:57:30.353641+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,75 +9,82 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.45,
+      "price": 2.66,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": -10.9,
-      "market_cap": "A$887M",
-      "last_close_date": "2026-06-12",
+      "change_3m_pct": -0.7,
+      "market_cap": "A$963M",
+      "last_close_date": "2026-06-15",
       "sparkline": [
         {
-          "date": "2026-03-12",
-          "price": 2.75
+          "date": "2026-03-16",
+          "price": 2.68
         },
         {
-          "date": "2026-03-18",
-          "price": 2.82
+          "date": "2026-03-20",
+          "price": 2.88
         },
         {
-          "date": "2026-03-25",
-          "price": 2.87
-        },
-        {
-          "date": "2026-03-31",
-          "price": 2.61
-        },
-        {
-          "date": "2026-04-09",
-          "price": 2.73
-        },
-        {
-          "date": "2026-04-15",
-          "price": 2.8
-        },
-        {
-          "date": "2026-04-22",
-          "price": 2.8
-        },
-        {
-          "date": "2026-04-29",
-          "price": 2.69
-        },
-        {
-          "date": "2026-05-05",
+          "date": "2026-03-27",
           "price": 2.7
         },
         {
-          "date": "2026-05-12",
-          "price": 2.59
+          "date": "2026-04-02",
+          "price": 2.6
         },
         {
-          "date": "2026-05-18",
-          "price": 2.39
+          "date": "2026-04-13",
+          "price": 2.65
         },
         {
-          "date": "2026-05-25",
-          "price": 2.42
+          "date": "2026-04-17",
+          "price": 2.9
         },
         {
-          "date": "2026-05-29",
-          "price": 2.61
+          "date": "2026-04-24",
+          "price": 2.76
         },
         {
-          "date": "2026-06-05",
+          "date": "2026-04-30",
+          "price": 2.65
+        },
+        {
+          "date": "2026-05-07",
+          "price": 2.86
+        },
+        {
+          "date": "2026-05-13",
+          "price": 2.65
+        },
+        {
+          "date": "2026-05-20",
+          "price": 2.23
+        },
+        {
+          "date": "2026-05-26",
           "price": 2.38
         },
         {
-          "date": "2026-06-12",
-          "price": 2.45
+          "date": "2026-06-02",
+          "price": 2.53
+        },
+        {
+          "date": "2026-06-09",
+          "price": 2.42
+        },
+        {
+          "date": "2026-06-15",
+          "price": 2.66
         }
       ],
       "news": [
+        {
+          "date": "2026-06-14",
+          "headline": "ASX Penny Stock Spotlight: Havilah Resources And 2 More Undervalued Picks",
+          "sentiment": "positive",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-penny-stock-spotlight-havilah-200230139.html",
+          "source": "Simply Wall St."
+        },
         {
           "date": "2026-06-02",
           "headline": "Statutory Profit Doesn't Reflect How Good Web Travel Group's (ASX:WEB) Earnings Are",
@@ -112,13 +119,6 @@
           "sentiment": "negative",
           "url": "https://finance.yahoo.com/markets/stocks/articles/asx-penny-stocks-watch-market-200236855.html",
           "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-06",
-          "headline": "ASX Stocks That May Be Trading Below Their Estimated Value",
-          "sentiment": "neutral",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-stocks-may-trading-below-193452929.html",
-          "source": "Simply Wall St."
         }
       ]
     },
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": 11.6,
-      "market_cap": "₹14,446 Cr",
+      "market_cap": "₹14,498 Cr",
       "last_close_date": "2026-06-12",
       "sparkline": [
         {
