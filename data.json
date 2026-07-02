@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T02:45:14.978472+00:00",
+  "fetched_at": "2026-07-02T02:34:58.202386+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,72 +9,72 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.92,
+      "price": 2.87,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": 5.2,
-      "market_cap": "A$1.06B",
-      "last_close_date": "2026-07-01",
+      "change_3m_pct": 10.2,
+      "market_cap": "A$1.04B",
+      "last_close_date": "2026-07-02",
       "sparkline": [
         {
-          "date": "2026-04-01",
-          "price": 2.78
+          "date": "2026-04-02",
+          "price": 2.6
         },
         {
-          "date": "2026-04-09",
-          "price": 2.73
-        },
-        {
-          "date": "2026-04-16",
-          "price": 2.98
-        },
-        {
-          "date": "2026-04-22",
-          "price": 2.8
-        },
-        {
-          "date": "2026-04-29",
+          "date": "2026-04-10",
           "price": 2.69
         },
         {
-          "date": "2026-05-05",
-          "price": 2.7
+          "date": "2026-04-17",
+          "price": 2.9
         },
         {
-          "date": "2026-05-12",
-          "price": 2.59
+          "date": "2026-04-23",
+          "price": 2.74
         },
         {
-          "date": "2026-05-18",
-          "price": 2.39
+          "date": "2026-04-30",
+          "price": 2.65
         },
         {
-          "date": "2026-05-25",
-          "price": 2.42
+          "date": "2026-05-06",
+          "price": 2.81
         },
         {
-          "date": "2026-05-29",
-          "price": 2.61
+          "date": "2026-05-13",
+          "price": 2.65
         },
         {
-          "date": "2026-06-05",
+          "date": "2026-05-19",
           "price": 2.38
         },
         {
-          "date": "2026-06-12",
-          "price": 2.45
+          "date": "2026-05-26",
+          "price": 2.38
         },
         {
-          "date": "2026-06-19",
-          "price": 3.01
+          "date": "2026-06-01",
+          "price": 2.54
         },
         {
-          "date": "2026-06-25",
-          "price": 2.93
+          "date": "2026-06-09",
+          "price": 2.42
         },
         {
-          "date": "2026-07-01",
-          "price": 2.925
+          "date": "2026-06-15",
+          "price": 2.67
+        },
+        {
+          "date": "2026-06-22",
+          "price": 2.94
+        },
+        {
+          "date": "2026-06-26",
+          "price": 2.98
+        },
+        {
+          "date": "2026-07-02",
+          "price": 2.865
         }
       ],
       "news": [
@@ -130,72 +130,72 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1429.7,
+      "price": 1512.0,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": 35.2,
-      "market_cap": "₹15,267 Cr",
-      "last_close_date": "2026-06-30",
+      "change_3m_pct": 38.2,
+      "market_cap": "₹16,146 Cr",
+      "last_close_date": "2026-07-01",
       "sparkline": [
         {
-          "date": "2026-03-30",
-          "price": 1057.3
+          "date": "2026-04-01",
+          "price": 1093.9
         },
         {
-          "date": "2026-04-07",
-          "price": 1082.7
+          "date": "2026-04-08",
+          "price": 1162.6
         },
         {
-          "date": "2026-04-15",
-          "price": 1226.3
+          "date": "2026-04-16",
+          "price": 1269.3
         },
         {
-          "date": "2026-04-21",
-          "price": 1279.3
+          "date": "2026-04-22",
+          "price": 1277.2
         },
         {
-          "date": "2026-04-28",
-          "price": 1254.4
+          "date": "2026-04-29",
+          "price": 1274.6
         },
         {
-          "date": "2026-05-04",
-          "price": 1286.1
+          "date": "2026-05-05",
+          "price": 1283.6
         },
         {
-          "date": "2026-05-11",
-          "price": 1191.3
+          "date": "2026-05-12",
+          "price": 1169.4
         },
         {
-          "date": "2026-05-15",
-          "price": 1177.0
+          "date": "2026-05-18",
+          "price": 1131.0
         },
         {
-          "date": "2026-05-22",
-          "price": 1194.6
+          "date": "2026-05-25",
+          "price": 1215.2
         },
         {
-          "date": "2026-05-28",
-          "price": 1225.0
+          "date": "2026-05-29",
+          "price": 1229.4
         },
         {
-          "date": "2026-06-04",
-          "price": 1221.6
+          "date": "2026-06-05",
+          "price": 1225.2
         },
         {
-          "date": "2026-06-10",
-          "price": 1228.2
+          "date": "2026-06-11",
+          "price": 1255.6
         },
         {
-          "date": "2026-06-17",
-          "price": 1455.6
+          "date": "2026-06-18",
+          "price": 1465.2
         },
         {
-          "date": "2026-06-23",
-          "price": 1459.5
+          "date": "2026-06-24",
+          "price": 1439.4
         },
         {
-          "date": "2026-06-30",
-          "price": 1429.7
+          "date": "2026-07-01",
+          "price": 1512.0
         }
       ],
       "news": [
@@ -237,72 +237,72 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 6.78,
+      "price": 6.93,
       "high_52w": 11.68,
       "low_52w": 5.62,
-      "change_3m_pct": 6.9,
-      "market_cap": "€1.65B",
-      "last_close_date": "2026-06-30",
+      "change_3m_pct": 5.3,
+      "market_cap": "€1.68B",
+      "last_close_date": "2026-07-01",
       "sparkline": [
         {
-          "date": "2026-03-30",
-          "price": 6.34
+          "date": "2026-04-01",
+          "price": 6.58
         },
         {
-          "date": "2026-04-07",
-          "price": 6.61
+          "date": "2026-04-09",
+          "price": 6.69
         },
         {
-          "date": "2026-04-14",
-          "price": 6.74
+          "date": "2026-04-16",
+          "price": 7.055
         },
         {
-          "date": "2026-04-20",
-          "price": 7.0
+          "date": "2026-04-22",
+          "price": 6.79
         },
         {
-          "date": "2026-04-27",
-          "price": 6.575
+          "date": "2026-04-29",
+          "price": 6.895
         },
         {
-          "date": "2026-05-04",
-          "price": 6.775
+          "date": "2026-05-06",
+          "price": 6.745
         },
         {
-          "date": "2026-05-11",
+          "date": "2026-05-13",
           "price": 6.48
         },
         {
-          "date": "2026-05-18",
-          "price": 6.07
+          "date": "2026-05-19",
+          "price": 6.2
         },
         {
-          "date": "2026-05-22",
-          "price": 6.315
+          "date": "2026-05-26",
+          "price": 6.655
         },
         {
-          "date": "2026-05-29",
-          "price": 7.125
+          "date": "2026-06-01",
+          "price": 7.09
         },
         {
-          "date": "2026-06-04",
-          "price": 7.105
+          "date": "2026-06-08",
+          "price": 7.0
         },
         {
-          "date": "2026-06-11",
-          "price": 6.61
+          "date": "2026-06-12",
+          "price": 6.89
         },
         {
-          "date": "2026-06-17",
-          "price": 7.105
+          "date": "2026-06-19",
+          "price": 7.07
         },
         {
-          "date": "2026-06-24",
-          "price": 6.91
+          "date": "2026-06-25",
+          "price": 6.795
         },
         {
-          "date": "2026-06-30",
-          "price": 6.78
+          "date": "2026-07-01",
+          "price": 6.93
         }
       ],
       "news": [
@@ -340,13 +340,6 @@
           "sentiment": "negative",
           "url": "https://finance.yahoo.com/news/spains-hbx-trims-full-guidance-063015320.html",
           "source": "Reuters"
-        },
-        {
-          "date": "2025-07-01",
-          "headline": "Blackstone’s Cirsa set for Spanish stock market debut around July 9",
-          "sentiment": "neutral",
-          "url": "https://finance.yahoo.com/news/blackstone-cirsa-set-spanish-stock-114100694.html",
-          "source": "Investing.com"
         }
       ]
     }
