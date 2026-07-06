@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-05T02:24:18.643147+00:00",
+  "fetched_at": "2026-07-06T02:28:54.745640+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,12 +9,12 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.84,
+      "price": 2.85,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": 6.4,
+      "change_3m_pct": 6.7,
       "market_cap": "A$1.03B",
-      "last_close_date": "2026-07-03",
+      "last_close_date": "2026-07-06",
       "sparkline": [
         {
           "date": "2026-04-07",
@@ -45,36 +45,36 @@
           "price": 2.52
         },
         {
-          "date": "2026-05-20",
-          "price": 2.23
+          "date": "2026-05-21",
+          "price": 2.34
         },
         {
           "date": "2026-05-27",
           "price": 2.43
         },
         {
-          "date": "2026-06-02",
-          "price": 2.53
+          "date": "2026-06-03",
+          "price": 2.44
         },
         {
           "date": "2026-06-10",
           "price": 2.41
         },
         {
-          "date": "2026-06-16",
-          "price": 2.71
+          "date": "2026-06-17",
+          "price": 3.01
         },
         {
           "date": "2026-06-23",
           "price": 2.91
         },
         {
-          "date": "2026-06-29",
-          "price": 3.0
+          "date": "2026-06-30",
+          "price": 2.96
         },
         {
-          "date": "2026-07-03",
-          "price": 2.84
+          "date": "2026-07-06",
+          "price": 2.85
         }
       ],
       "news": [
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": 38.8,
-      "market_cap": "₹16,254 Cr",
+      "market_cap": "₹16,231 Cr",
       "last_close_date": "2026-07-03",
       "sparkline": [
         {
@@ -239,7 +239,7 @@
       "symbol": "€",
       "price": 7.03,
       "high_52w": 11.68,
-      "low_52w": 5.62,
+      "low_52w": 5.56,
       "change_3m_pct": 6.4,
       "market_cap": "€1.71B",
       "last_close_date": "2026-07-03",
