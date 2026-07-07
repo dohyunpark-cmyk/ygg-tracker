@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T02:28:54.745640+00:00",
+  "fetched_at": "2026-07-07T02:24:29.573653+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,12 +9,12 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 2.85,
+      "price": 2.86,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": 6.7,
-      "market_cap": "A$1.03B",
-      "last_close_date": "2026-07-06",
+      "change_3m_pct": 7.1,
+      "market_cap": "A$1.04B",
+      "last_close_date": "2026-07-07",
       "sparkline": [
         {
           "date": "2026-04-07",
@@ -37,8 +37,8 @@
           "price": 2.68
         },
         {
-          "date": "2026-05-07",
-          "price": 2.86
+          "date": "2026-05-08",
+          "price": 2.75
         },
         {
           "date": "2026-05-14",
@@ -49,32 +49,32 @@
           "price": 2.34
         },
         {
-          "date": "2026-05-27",
-          "price": 2.43
+          "date": "2026-05-28",
+          "price": 2.54
         },
         {
           "date": "2026-06-03",
           "price": 2.44
         },
         {
-          "date": "2026-06-10",
-          "price": 2.41
+          "date": "2026-06-11",
+          "price": 2.36
         },
         {
-          "date": "2026-06-17",
-          "price": 3.01
+          "date": "2026-06-18",
+          "price": 3.0
         },
         {
-          "date": "2026-06-23",
-          "price": 2.91
-        },
-        {
-          "date": "2026-06-30",
-          "price": 2.96
-        },
-        {
-          "date": "2026-07-06",
+          "date": "2026-06-24",
           "price": 2.85
+        },
+        {
+          "date": "2026-07-01",
+          "price": 2.88
+        },
+        {
+          "date": "2026-07-07",
+          "price": 2.86
         }
       ],
       "news": [
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": 38.8,
-      "market_cap": "₹16,231 Cr",
+      "market_cap": "₹16,224 Cr",
       "last_close_date": "2026-07-03",
       "sparkline": [
         {
@@ -239,7 +239,7 @@
       "symbol": "€",
       "price": 7.03,
       "high_52w": 11.68,
-      "low_52w": 5.56,
+      "low_52w": 5.62,
       "change_3m_pct": 6.4,
       "market_cap": "€1.71B",
       "last_close_date": "2026-07-03",
