@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T01:46:03.736745+00:00",
+  "fetched_at": "2026-07-31T02:03:28.747682+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,12 +9,12 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 3.23,
+      "price": 3.36,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": 21.9,
-      "market_cap": "A$1.17B",
-      "last_close_date": "2026-07-30",
+      "change_3m_pct": 26.8,
+      "market_cap": "A$1.22B",
+      "last_close_date": "2026-07-31",
       "sparkline": [
         {
           "date": "2026-04-30",
@@ -29,8 +29,8 @@
           "price": 2.65
         },
         {
-          "date": "2026-05-19",
-          "price": 2.38
+          "date": "2026-05-20",
+          "price": 2.23
         },
         {
           "date": "2026-05-26",
@@ -41,23 +41,23 @@
           "price": 2.53
         },
         {
-          "date": "2026-06-09",
-          "price": 2.42
+          "date": "2026-06-10",
+          "price": 2.41
         },
         {
-          "date": "2026-06-16",
-          "price": 2.71
+          "date": "2026-06-17",
+          "price": 3.01
         },
         {
           "date": "2026-06-23",
           "price": 2.91
         },
         {
-          "date": "2026-06-29",
-          "price": 3.0
+          "date": "2026-06-30",
+          "price": 2.96
         },
         {
-          "date": "2026-07-06",
+          "date": "2026-07-07",
           "price": 2.84
         },
         {
@@ -65,19 +65,26 @@
           "price": 2.56
         },
         {
-          "date": "2026-07-17",
-          "price": 2.44
+          "date": "2026-07-20",
+          "price": 2.35
         },
         {
-          "date": "2026-07-24",
-          "price": 2.57
+          "date": "2026-07-27",
+          "price": 2.81
         },
         {
-          "date": "2026-07-30",
-          "price": 3.23
+          "date": "2026-07-31",
+          "price": 3.36
         }
       ],
       "news": [
+        {
+          "date": "2026-07-30",
+          "headline": "Web Travel Group (ASX:WEB) Lifted Guidance, Is The Recovery Already Priced In?",
+          "sentiment": "neutral",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/travel-group-asx-lifted-guidance-191008693.html",
+          "source": "Simply Wall St."
+        },
         {
           "date": "2026-06-14",
           "headline": "ASX Penny Stock Spotlight: Havilah Resources And 2 More Undervalued Picks",
@@ -112,13 +119,6 @@
           "sentiment": "neutral",
           "url": "https://finance.yahoo.com/news/3-asx-stocks-may-trading-193451535.html",
           "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-06",
-          "headline": "ASX Penny Stocks To Watch With Market Caps Under A$1B",
-          "sentiment": "negative",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-penny-stocks-watch-market-200236855.html",
-          "source": "Simply Wall St."
         }
       ]
     },
@@ -130,75 +130,82 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1508.6,
+      "price": 1522.6,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": 18.4,
-      "market_cap": "₹16,259 Cr",
-      "last_close_date": "2026-07-28",
+      "change_3m_pct": 21.3,
+      "market_cap": "₹16,002 Cr",
+      "last_close_date": "2026-07-29",
       "sparkline": [
         {
-          "date": "2026-04-29",
-          "price": 1274.6
+          "date": "2026-04-30",
+          "price": 1255.4
         },
         {
-          "date": "2026-05-05",
-          "price": 1283.6
+          "date": "2026-05-06",
+          "price": 1277.8
         },
         {
-          "date": "2026-05-12",
-          "price": 1169.4
+          "date": "2026-05-13",
+          "price": 1174.5
         },
         {
-          "date": "2026-05-18",
-          "price": 1131.0
+          "date": "2026-05-19",
+          "price": 1178.1
         },
         {
-          "date": "2026-05-25",
-          "price": 1215.2
+          "date": "2026-05-26",
+          "price": 1215.0
         },
         {
-          "date": "2026-06-01",
-          "price": 1229.3
+          "date": "2026-06-02",
+          "price": 1229.6
         },
         {
-          "date": "2026-06-05",
-          "price": 1225.2
+          "date": "2026-06-08",
+          "price": 1189.1
         },
         {
-          "date": "2026-06-12",
-          "price": 1352.8
+          "date": "2026-06-15",
+          "price": 1452.0
         },
         {
-          "date": "2026-06-19",
-          "price": 1489.8
+          "date": "2026-06-22",
+          "price": 1456.0
         },
         {
-          "date": "2026-06-25",
+          "date": "2026-06-26",
           "price": 1460.8
         },
         {
-          "date": "2026-07-02",
-          "price": 1526.3
+          "date": "2026-07-03",
+          "price": 1522.1
         },
         {
-          "date": "2026-07-09",
-          "price": 1496.9
+          "date": "2026-07-10",
+          "price": 1504.9
         },
         {
-          "date": "2026-07-15",
-          "price": 1457.6
+          "date": "2026-07-16",
+          "price": 1453.6
         },
         {
-          "date": "2026-07-22",
-          "price": 1469.1
+          "date": "2026-07-23",
+          "price": 1436.1
         },
         {
-          "date": "2026-07-28",
-          "price": 1508.6
+          "date": "2026-07-29",
+          "price": 1522.6
         }
       ],
       "news": [
+        {
+          "date": "2026-07-30",
+          "headline": "TBO Tek Ltd (NSE:TBOTEK) (Q1 2027) Earnings Call Highlights: Resilient Growth Amid Middle East ...",
+          "sentiment": "positive",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tbo-tek-ltd-nse-tbotek-190051742.html",
+          "source": "GuruFocus.com"
+        },
         {
           "date": "2026-06-02",
           "headline": "TBO Tek Ltd (NSE:TBOTEK) Q4 2026 Earnings Call Highlights: Resilient Growth Amid Geopolitical ...",
@@ -237,72 +244,72 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 7.61,
-      "high_52w": 10.54,
+      "price": 7.55,
+      "high_52w": 8.84,
       "low_52w": 5.62,
-      "change_3m_pct": 10.3,
-      "market_cap": "€1.83B",
-      "last_close_date": "2026-07-28",
+      "change_3m_pct": 8.5,
+      "market_cap": "€1.90B",
+      "last_close_date": "2026-07-29",
       "sparkline": [
         {
-          "date": "2026-04-29",
-          "price": 6.895
+          "date": "2026-04-30",
+          "price": 6.96
         },
         {
-          "date": "2026-05-06",
-          "price": 6.745
+          "date": "2026-05-07",
+          "price": 6.705
         },
         {
-          "date": "2026-05-13",
-          "price": 6.48
+          "date": "2026-05-14",
+          "price": 6.305
         },
         {
-          "date": "2026-05-19",
-          "price": 6.2
+          "date": "2026-05-20",
+          "price": 6.25
         },
         {
-          "date": "2026-05-26",
-          "price": 6.655
+          "date": "2026-05-27",
+          "price": 6.82
         },
         {
-          "date": "2026-06-01",
-          "price": 7.09
+          "date": "2026-06-02",
+          "price": 7.165
         },
         {
-          "date": "2026-06-08",
-          "price": 7.0
+          "date": "2026-06-09",
+          "price": 6.905
         },
         {
-          "date": "2026-06-15",
-          "price": 7.055
+          "date": "2026-06-16",
+          "price": 7.06
         },
         {
-          "date": "2026-06-19",
-          "price": 7.07
+          "date": "2026-06-22",
+          "price": 6.96
         },
         {
-          "date": "2026-06-26",
-          "price": 6.67
+          "date": "2026-06-29",
+          "price": 6.75
         },
         {
-          "date": "2026-07-02",
-          "price": 7.01
+          "date": "2026-07-03",
+          "price": 7.03
         },
         {
-          "date": "2026-07-09",
-          "price": 7.45
+          "date": "2026-07-10",
+          "price": 7.545
         },
         {
-          "date": "2026-07-15",
-          "price": 7.385
+          "date": "2026-07-16",
+          "price": 7.405
         },
         {
-          "date": "2026-07-22",
-          "price": 7.36
+          "date": "2026-07-23",
+          "price": 7.295
         },
         {
-          "date": "2026-07-28",
-          "price": 7.605
+          "date": "2026-07-29",
+          "price": 7.555
         }
       ],
       "news": [
@@ -333,13 +340,6 @@
           "sentiment": "negative",
           "url": "https://finance.yahoo.com/news/assessing-hbx-group-international-36-220852258.html",
           "source": "Simply Wall St."
-        },
-        {
-          "date": "2025-07-30",
-          "headline": "Spain's HBX shares plunge after full-year guidance revision",
-          "sentiment": "negative",
-          "url": "https://finance.yahoo.com/news/spains-hbx-trims-full-guidance-063015320.html",
-          "source": "Reuters"
         }
       ]
     }
