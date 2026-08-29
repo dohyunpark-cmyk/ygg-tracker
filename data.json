@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-28T08:16:42.429387+00:00",
+  "fetched_at": "2026-08-29T04:59:38.192755+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -130,12 +130,12 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1689.4,
+      "price": 1696.6,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": 37.9,
-      "market_cap": "₹18,040 Cr",
-      "last_close_date": "2026-08-28",
+      "change_3m_pct": 38.5,
+      "market_cap": "₹17,969 Cr",
+      "last_close_date": "2026-08-27",
       "sparkline": [
         {
           "date": "2026-05-28",
@@ -194,8 +194,8 @@
           "price": 1696.5
         },
         {
-          "date": "2026-08-28",
-          "price": 1689.4
+          "date": "2026-08-27",
+          "price": 1696.6
         }
       ],
       "news": [
@@ -237,12 +237,12 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 7.78,
+      "price": 7.76,
       "high_52w": 8.84,
       "low_52w": 5.62,
-      "change_3m_pct": 13.2,
+      "change_3m_pct": 12.8,
       "market_cap": "€1.88B",
-      "last_close_date": "2026-08-28",
+      "last_close_date": "2026-08-27",
       "sparkline": [
         {
           "date": "2026-05-28",
@@ -301,8 +301,8 @@
           "price": 7.75
         },
         {
-          "date": "2026-08-28",
-          "price": 7.78
+          "date": "2026-08-27",
+          "price": 7.755
         }
       ],
       "news": [
