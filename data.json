@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T02:48:27.234927+00:00",
+  "fetched_at": "2026-08-31T02:41:24.124793+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,72 +9,72 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 3.81,
+      "price": 3.86,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": 50.0,
-      "market_cap": "A$1.38B",
-      "last_close_date": "2026-08-28",
+      "change_3m_pct": 51.8,
+      "market_cap": "A$1.40B",
+      "last_close_date": "2026-08-31",
       "sparkline": [
         {
-          "date": "2026-05-28",
+          "date": "2026-06-01",
           "price": 2.54
         },
         {
-          "date": "2026-06-03",
-          "price": 2.44
+          "date": "2026-06-05",
+          "price": 2.38
         },
         {
-          "date": "2026-06-11",
-          "price": 2.36
+          "date": "2026-06-15",
+          "price": 2.67
         },
         {
-          "date": "2026-06-18",
-          "price": 3.0
+          "date": "2026-06-19",
+          "price": 3.01
         },
         {
-          "date": "2026-06-24",
-          "price": 2.85
+          "date": "2026-06-26",
+          "price": 2.98
         },
         {
-          "date": "2026-07-01",
-          "price": 2.88
+          "date": "2026-07-03",
+          "price": 2.84
         },
         {
-          "date": "2026-07-08",
-          "price": 2.74
+          "date": "2026-07-09",
+          "price": 2.69
         },
         {
-          "date": "2026-07-15",
-          "price": 2.52
+          "date": "2026-07-16",
+          "price": 2.48
         },
         {
-          "date": "2026-07-21",
-          "price": 2.36
+          "date": "2026-07-23",
+          "price": 2.54
         },
         {
-          "date": "2026-07-28",
-          "price": 3.29
+          "date": "2026-07-29",
+          "price": 3.31
         },
         {
-          "date": "2026-08-04",
-          "price": 3.38
+          "date": "2026-08-05",
+          "price": 3.46
         },
         {
-          "date": "2026-08-10",
-          "price": 3.56
+          "date": "2026-08-12",
+          "price": 3.5
         },
         {
-          "date": "2026-08-17",
-          "price": 3.48
+          "date": "2026-08-18",
+          "price": 3.54
         },
         {
-          "date": "2026-08-24",
-          "price": 3.6
+          "date": "2026-08-25",
+          "price": 3.72
         },
         {
-          "date": "2026-08-28",
-          "price": 3.81
+          "date": "2026-08-31",
+          "price": 3.855
         }
       ],
       "news": [
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": 38.5,
-      "market_cap": "₹17,969 Cr",
+      "market_cap": "₹17,982 Cr",
       "last_close_date": "2026-08-27",
       "sparkline": [
         {
@@ -239,7 +239,7 @@
       "symbol": "€",
       "price": 7.76,
       "high_52w": 8.84,
-      "low_52w": 5.62,
+      "low_52w": 5.56,
       "change_3m_pct": 12.8,
       "market_cap": "€1.88B",
       "last_close_date": "2026-08-27",
