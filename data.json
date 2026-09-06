@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-05T02:16:45.260626+00:00",
+  "fetched_at": "2026-09-06T02:12:39.199067+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -134,7 +134,7 @@
       "high_52w": 1764.8,
       "low_52w": 1004.2,
       "change_3m_pct": 38.3,
-      "market_cap": "₹18,035 Cr",
+      "market_cap": "₹17,929 Cr",
       "last_close_date": "2026-09-04",
       "sparkline": [
         {
@@ -237,12 +237,12 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 7.42,
+      "price": 7.44,
       "high_52w": 8.84,
       "low_52w": 5.62,
-      "change_3m_pct": 4.4,
+      "change_3m_pct": 4.7,
       "market_cap": "€1.80B",
-      "last_close_date": "2026-09-03",
+      "last_close_date": "2026-09-04",
       "sparkline": [
         {
           "date": "2026-06-04",
@@ -261,8 +261,8 @@
           "price": 6.91
         },
         {
-          "date": "2026-06-30",
-          "price": 6.78
+          "date": "2026-07-01",
+          "price": 6.93
         },
         {
           "date": "2026-07-07",
@@ -277,32 +277,32 @@
           "price": 7.455
         },
         {
-          "date": "2026-07-27",
-          "price": 7.545
+          "date": "2026-07-28",
+          "price": 7.605
         },
         {
-          "date": "2026-08-03",
-          "price": 7.685
+          "date": "2026-08-04",
+          "price": 7.76
         },
         {
           "date": "2026-08-10",
           "price": 7.865
         },
         {
-          "date": "2026-08-14",
-          "price": 7.88
+          "date": "2026-08-17",
+          "price": 7.885
         },
         {
-          "date": "2026-08-21",
-          "price": 7.75
-        },
-        {
-          "date": "2026-08-28",
+          "date": "2026-08-24",
           "price": 7.74
         },
         {
-          "date": "2026-09-03",
-          "price": 7.42
+          "date": "2026-08-31",
+          "price": 7.58
+        },
+        {
+          "date": "2026-09-04",
+          "price": 7.44
         }
       ],
       "news": [
