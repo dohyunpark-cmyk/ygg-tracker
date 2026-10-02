@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T03:24:26.102969+00:00",
+  "fetched_at": "2026-10-02T03:24:57.812487+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -9,118 +9,75 @@
       "subtitle": "WebBeds 단일 운영사 (호주 상장 B2B)",
       "currency": "AUD",
       "symbol": "A$",
-      "price": 3.37,
+      "price": 3.36,
       "high_52w": 5.04,
       "low_52w": 2.17,
-      "change_3m_pct": 17.0,
+      "change_3m_pct": 17.5,
       "market_cap": "A$1.22B",
-      "last_close_date": "2026-10-01",
+      "last_close_date": "2026-10-02",
       "sparkline": [
         {
-          "date": "2026-07-01",
-          "price": 2.88
+          "date": "2026-07-02",
+          "price": 2.86
         },
         {
-          "date": "2026-07-07",
-          "price": 2.84
+          "date": "2026-07-08",
+          "price": 2.74
         },
         {
-          "date": "2026-07-14",
-          "price": 2.55
+          "date": "2026-07-15",
+          "price": 2.52
         },
         {
-          "date": "2026-07-21",
-          "price": 2.36
+          "date": "2026-07-22",
+          "price": 2.43
         },
         {
-          "date": "2026-07-28",
-          "price": 3.29
+          "date": "2026-07-29",
+          "price": 3.31
         },
         {
-          "date": "2026-08-03",
-          "price": 3.51
+          "date": "2026-08-04",
+          "price": 3.38
         },
         {
-          "date": "2026-08-10",
+          "date": "2026-08-11",
           "price": 3.56
         },
         {
-          "date": "2026-08-17",
-          "price": 3.48
+          "date": "2026-08-18",
+          "price": 3.54
         },
         {
-          "date": "2026-08-24",
-          "price": 3.6
+          "date": "2026-08-25",
+          "price": 3.72
         },
         {
-          "date": "2026-08-31",
-          "price": 3.8
+          "date": "2026-09-01",
+          "price": 3.88
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "price": 3.7
         },
         {
-          "date": "2026-09-11",
-          "price": 3.51
+          "date": "2026-09-14",
+          "price": 3.48
         },
         {
-          "date": "2026-09-18",
-          "price": 3.47
+          "date": "2026-09-21",
+          "price": 3.48
         },
         {
-          "date": "2026-09-25",
-          "price": 3.37
+          "date": "2026-09-28",
+          "price": 3.41
         },
         {
-          "date": "2026-10-01",
-          "price": 3.37
+          "date": "2026-10-02",
+          "price": 3.36
         }
       ],
-      "news": [
-        {
-          "date": "2026-07-30",
-          "headline": "Web Travel Group (ASX:WEB) Lifted Guidance, Is The Recovery Already Priced In?",
-          "sentiment": "neutral",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/travel-group-asx-lifted-guidance-191008693.html",
-          "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-06-14",
-          "headline": "ASX Penny Stock Spotlight: Havilah Resources And 2 More Undervalued Picks",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asx-penny-stock-spotlight-havilah-200230139.html",
-          "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-06-02",
-          "headline": "Statutory Profit Doesn't Reflect How Good Web Travel Group's (ASX:WEB) Earnings Are",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/statutory-profit-doesnt-reflect-good-200339055.html",
-          "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-17",
-          "headline": "Integral Diagnostics And 2 Other ASX Stocks That May Be Trading Below Estimated Value",
-          "sentiment": "negative",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/integral-diagnostics-2-other-asx-193434811.html",
-          "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-14",
-          "headline": "3 ASX Stocks Estimated To Be Trading At A 10.1% To 41.2% Discount",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-asx-stocks-estimated-trading-193431820.html",
-          "source": "Simply Wall St."
-        },
-        {
-          "date": "2026-05-12",
-          "headline": "3 ASX Stocks That May Be Trading Below Estimated Intrinsic Value By Up To 46.1%",
-          "sentiment": "neutral",
-          "url": "https://finance.yahoo.com/news/3-asx-stocks-may-trading-193451535.html",
-          "source": "Simply Wall St."
-        }
-      ]
+      "news": []
     },
     {
       "id": "TBO",
@@ -130,104 +87,75 @@
       "subtitle": "인도 글로벌 B2B 트래블 플랫폼",
       "currency": "INR",
       "symbol": "₹",
-      "price": 1684.7,
+      "price": 1685.2,
       "high_52w": 1764.8,
       "low_52w": 1004.2,
-      "change_3m_pct": 17.8,
-      "market_cap": "₹17,995 Cr",
-      "last_close_date": "2026-09-29",
+      "change_3m_pct": 11.5,
+      "market_cap": "₹17,849 Cr",
+      "last_close_date": "2026-09-30",
       "sparkline": [
         {
-          "date": "2026-06-30",
-          "price": 1429.7
+          "date": "2026-07-01",
+          "price": 1512.0
         },
         {
-          "date": "2026-07-06",
-          "price": 1519.3
+          "date": "2026-07-07",
+          "price": 1504.9
         },
         {
-          "date": "2026-07-13",
-          "price": 1504.1
+          "date": "2026-07-14",
+          "price": 1443.5
         },
         {
-          "date": "2026-07-17",
-          "price": 1459.0
+          "date": "2026-07-20",
+          "price": 1444.6
         },
         {
-          "date": "2026-07-24",
-          "price": 1429.0
+          "date": "2026-07-27",
+          "price": 1519.2
         },
         {
-          "date": "2026-07-31",
-          "price": 1531.2
+          "date": "2026-08-03",
+          "price": 1615.9
         },
         {
-          "date": "2026-08-06",
-          "price": 1623.1
+          "date": "2026-08-07",
+          "price": 1610.9
         },
         {
-          "date": "2026-08-13",
-          "price": 1604.9
+          "date": "2026-08-14",
+          "price": 1633.3
         },
         {
-          "date": "2026-08-20",
-          "price": 1702.6
+          "date": "2026-08-21",
+          "price": 1696.5
         },
         {
-          "date": "2026-08-26",
-          "price": 1706.5
+          "date": "2026-08-27",
+          "price": 1696.6
         },
         {
-          "date": "2026-09-02",
-          "price": 1700.0
+          "date": "2026-09-03",
+          "price": 1733.7
         },
         {
-          "date": "2026-09-09",
-          "price": 1721.1
+          "date": "2026-09-10",
+          "price": 1671.6
         },
         {
-          "date": "2026-09-16",
-          "price": 1631.4
+          "date": "2026-09-17",
+          "price": 1647.7
         },
         {
-          "date": "2026-09-23",
-          "price": 1704.5
+          "date": "2026-09-24",
+          "price": 1687.2
         },
         {
-          "date": "2026-09-29",
-          "price": 1684.7
+          "date": "2026-09-30",
+          "price": 1685.2
         }
       ],
-      "news": [
-        {
-          "date": "2026-07-30",
-          "headline": "TBO Tek Ltd (NSE:TBOTEK) (Q1 2027) Earnings Call Highlights: Resilient Growth Amid Middle East ...",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tbo-tek-ltd-nse-tbotek-190051742.html",
-          "source": "GuruFocus.com"
-        },
-        {
-          "date": "2026-06-02",
-          "headline": "TBO Tek Ltd (NSE:TBOTEK) Q4 2026 Earnings Call Highlights: Resilient Growth Amid Geopolitical ...",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tbo-tek-ltd-nse-tbotek-010137480.html",
-          "source": "GuruFocus.com"
-        },
-        {
-          "date": "2026-02-13",
-          "headline": "TBO Tek Ltd (NSE:TBOTEK) Q3 2026 Earnings Call Highlights: Strong Air Business Growth and ...",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/news/tbo-tek-ltd-nse-tbotek-010521981.html",
-          "source": "GuruFocus.com"
-        },
-        {
-          "date": "2025-11-03",
-          "headline": "TBO Tek Ltd (NSE:TBOTEK) Q2 2026 Earnings Call Highlights: Strong Hotel Growth and Strategic ...",
-          "sentiment": "info",
-          "url": "https://finance.yahoo.com/news/tbo-tek-ltd-nse-tbotek-190046389.html",
-          "source": "GuruFocus.com"
-        }
-      ]
+      "news": []
     },
     {
       "id": "HBX",
@@ -237,104 +165,75 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 7.43,
+      "price": 7.38,
       "high_52w": 8.84,
       "low_52w": 5.62,
-      "change_3m_pct": 9.7,
+      "change_3m_pct": 6.5,
       "market_cap": "€1.78B",
-      "last_close_date": "2026-09-29",
+      "last_close_date": "2026-09-30",
       "sparkline": [
         {
-          "date": "2026-06-30",
-          "price": 6.78
+          "date": "2026-07-01",
+          "price": 6.93
         },
         {
-          "date": "2026-07-06",
-          "price": 7.065
+          "date": "2026-07-07",
+          "price": 7.52
         },
         {
-          "date": "2026-07-13",
-          "price": 7.515
+          "date": "2026-07-14",
+          "price": 7.405
         },
         {
-          "date": "2026-07-20",
-          "price": 7.485
+          "date": "2026-07-21",
+          "price": 7.455
         },
         {
-          "date": "2026-07-24",
-          "price": 7.37
+          "date": "2026-07-27",
+          "price": 7.545
         },
         {
-          "date": "2026-07-31",
-          "price": 7.72
+          "date": "2026-08-03",
+          "price": 7.685
         },
         {
-          "date": "2026-08-07",
-          "price": 7.87
+          "date": "2026-08-10",
+          "price": 7.865
         },
         {
-          "date": "2026-08-14",
-          "price": 7.88
+          "date": "2026-08-17",
+          "price": 7.885
         },
         {
-          "date": "2026-08-20",
-          "price": 7.78
+          "date": "2026-08-21",
+          "price": 7.75
         },
         {
-          "date": "2026-08-27",
-          "price": 7.755
+          "date": "2026-08-28",
+          "price": 7.74
         },
         {
-          "date": "2026-09-03",
-          "price": 7.42
+          "date": "2026-09-04",
+          "price": 7.44
         },
         {
-          "date": "2026-09-09",
-          "price": 7.215
+          "date": "2026-09-10",
+          "price": 7.175
         },
         {
-          "date": "2026-09-16",
-          "price": 7.08
+          "date": "2026-09-17",
+          "price": 7.115
         },
         {
-          "date": "2026-09-23",
-          "price": 7.1
+          "date": "2026-09-24",
+          "price": 7.09
         },
         {
-          "date": "2026-09-29",
-          "price": 7.435
+          "date": "2026-09-30",
+          "price": 7.38
         }
       ],
-      "news": [
-        {
-          "date": "2026-05-19",
-          "headline": "HBX Group International PLC (STU:Q1D) Half Year 2026 Earnings Call Highlights: Strong Growth ...",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hbx-group-international-plc-stu-010150077.html",
-          "source": "GuruFocus.com"
-        },
-        {
-          "date": "2026-01-29",
-          "headline": "HBX Buy-Back And AI Focus Highlight Valuation Gap And Future Dividends",
-          "sentiment": "info",
-          "url": "https://finance.yahoo.com/news/hbx-buy-back-ai-focus-130937342.html",
-          "source": "Simply Wall St."
-        },
-        {
-          "date": "2025-11-28",
-          "headline": "HBX Group International PLC (FRA:Q1D) Full Year 2025 Earnings Call Highlights: Strong Financial ...",
-          "sentiment": "positive",
-          "url": "https://finance.yahoo.com/news/hbx-group-international-plc-fra-050026735.html",
-          "source": "GuruFocus.com"
-        },
-        {
-          "date": "2025-10-13",
-          "headline": "Assessing HBX Group International After 36% Drop and Recent Industry Volatility",
-          "sentiment": "negative",
-          "url": "https://finance.yahoo.com/news/assessing-hbx-group-international-36-220852258.html",
-          "source": "Simply Wall St."
-        }
-      ]
+      "news": []
     }
   ],
   "errors": []
