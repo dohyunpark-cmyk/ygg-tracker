@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-10T03:39:16.094327+00:00",
+  "fetched_at": "2026-10-11T03:12:16.804663+00:00",
   "stocks": [
     {
       "id": "WEB",
@@ -13,7 +13,7 @@
       "high_52w": 5.04,
       "low_52w": 2.17,
       "change_3m_pct": 27.1,
-      "market_cap": "A$1.24B",
+      "market_cap": "A$1.23B",
       "last_close_date": "2026-10-09",
       "sparkline": [
         {
@@ -165,12 +165,12 @@
       "subtitle": "Hotelbeds·Bedsonline 모회사",
       "currency": "EUR",
       "symbol": "€",
-      "price": 7.39,
+      "price": 7.41,
       "high_52w": 8.84,
       "low_52w": 5.62,
-      "change_3m_pct": -0.7,
+      "change_3m_pct": -0.5,
       "market_cap": "€1.79B",
-      "last_close_date": "2026-10-08",
+      "last_close_date": "2026-10-09",
       "sparkline": [
         {
           "date": "2026-07-09",
@@ -189,8 +189,8 @@
           "price": 7.555
         },
         {
-          "date": "2026-08-04",
-          "price": 7.76
+          "date": "2026-08-05",
+          "price": 7.875
         },
         {
           "date": "2026-08-11",
@@ -205,32 +205,32 @@
           "price": 7.705
         },
         {
-          "date": "2026-08-31",
-          "price": 7.58
+          "date": "2026-09-01",
+          "price": 7.44
         },
         {
-          "date": "2026-09-07",
-          "price": 7.32
+          "date": "2026-09-08",
+          "price": 7.3
         },
         {
           "date": "2026-09-14",
           "price": 7.12
         },
         {
-          "date": "2026-09-18",
-          "price": 7.04
+          "date": "2026-09-21",
+          "price": 7.255
         },
         {
-          "date": "2026-09-25",
-          "price": 7.245
+          "date": "2026-09-28",
+          "price": 7.335
         },
         {
-          "date": "2026-10-02",
-          "price": 7.505
+          "date": "2026-10-05",
+          "price": 7.48
         },
         {
-          "date": "2026-10-08",
-          "price": 7.395
+          "date": "2026-10-09",
+          "price": 7.41
         }
       ],
       "news": []
